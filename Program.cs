@@ -7,7 +7,6 @@ namespace ConsoleApp1
 {
     class Program
     {
-
         #region record objects
         public record Person(string Name, int Age);
         public record Student (string Name, int Age ,string University, string course) : Person(Name, Age);
