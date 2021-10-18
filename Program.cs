@@ -20,6 +20,8 @@ namespace ConsoleApp1
             new (5, "Jasmine", "AZ",1000000)
         };
         #endregion
+       
+
         static void Main(string[] args)
         {
             #region Record Type examples
